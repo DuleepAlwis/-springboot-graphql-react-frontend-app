@@ -3,6 +3,7 @@ import HomeComponent from "./component/HomeComponent";
 import SignupComponent from "./component/SignupComponent";
 import TutorHome from "./component/TutorHomeComponent";
 import TutorProfileComponent from "./component/TutorProfileComponent";
+import TestComponent from "./component/TestComponent";
 
 function Routers(){
     return(
@@ -20,6 +21,9 @@ function Routers(){
                     }/>
                     <Route path="/tutorProfile" element={
                         <TutorProfileComponent/>
+                    }/>
+                    <Route path="/test" element={
+                        <TestComponent/>
                     }/>
                 </Routes>
             </Router>
